@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* generates a block lvl grid */
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+#user-input {
+  width: 70%;
+  height: 30px;
+  border: 3px solid rgb(139, 200, 98);
+  outline: none;
+}
+#first-div {
+  display: inline;
+  text-align: center;
+  height: 30px;
+  width: 350px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 6px;
+  background-color: rgb(139, 200, 98);
+  color: rgb(255, 255, 255);
+}
+#second-div {
+  display: flex;
+}
