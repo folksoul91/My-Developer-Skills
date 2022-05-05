@@ -21,7 +21,6 @@ body {
   width: 350px;
   font-size: 18px;
   font-family: sans-serif;
-  font-weight: bold;
   line-height: 32px;
   margin-bottom: 6px;
   background-color: rgb(139, 200, 98);
@@ -29,4 +28,20 @@ body {
 }
 #second-div {
   display: flex;
+}
+
+#btn {
+  width: 30%;
+  height: 30px;
+  margin-left: 10px;
+  border: 3px solid rgb(139, 200, 98);
+  background-color: rgb(255, 255, 255);
+  color: rgb(139, 200, 98);
+}
+
+#delete {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 8, 0);
+  border: 3px solid rgb(255, 8, 0);
+  margin: 10px auto;
 }
